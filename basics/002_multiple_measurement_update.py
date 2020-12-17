@@ -1,3 +1,5 @@
+# Inspired by Self-Driving-Car Nano Degree from Udacity
+
 # Assume a 1D world with 5 states
 # Robot doesnt know where it is.
 
@@ -37,4 +39,3 @@ for current_z in Z:
     posterior = sense(p, current_z)
     print(posterior)
     p = posterior
-
